@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Darshil Anghan</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <header class="header">
+      <div class="profile-info">
+        <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+        <div class="text-info">
+          <h1>Darshil Anghan</h1>
+          <p>Mobile App Developer<br>Waterloo, Canada</p>
+          <div class="social-icons">
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/darshil-anghan-9a48b1209/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/d2patel" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.behance.net/darshilanaghan" target="_blank"><i class="fab fa-behance"></i></a>
+            <a href="Darshil_Anghan_Resume.pdf" target="_blank"><i class="fas fa-file"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-content">
+      <section>
+        <h2 onclick="toggleSection('about')">About</h2>
+        <div id="about" class="content">
+          <p>Hey! I'm Darshil, a software developer with a strong foundation in building high-quality, efficient applications.
+             With 1.5 years of experience as a UI/UX designer, I've developed a keen eye for creating user-centric software. 
+             Now, I'm diving into full-stack development, specializing in mobile app development for both iOS and Android.
+             I have hands-on experience with technologies like Swift, Kotlin, React Native, and various backend frameworks, 
+             and I’m always exploring new tools to improve performance and scalability. My focus is on building clean, 
+             maintainable code that delivers exceptional user experiences. I’m passionate about bridging the gap between design 
+             and development, ensuring seamless, intuitive apps from concept to launch.
+            Outside of coding, I love staying up-to-date with industry trends and solving challenging problems through innovative solutions. Let's collaborate and bring your ideas to life with robust, high-performance applications!</p>
+        </div>
+      </section>
+
+      <section>
+        <h2 onclick="toggleSection('work')">Work</h2>
+        <div id="work" class="content">
+          <div class="job">
+            <h3>Software Developer Intern</h3>
+            <p><strong>Company:</strong> ISU Corp.</p>
+            <p><strong>Duration:</strong> May 2024 - Dec 2024</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+              <li>Developed native iOS applications using Swift.</li>
+              <li>Integrated RESTful APIs for real-time data synchronization.</li>
+              <li>Collaborated with the UI/UX team to implement design prototypes.</li>
+            </ul>
+          </div>
+      
+          <div class="job">
+            <h3>UI/UX Designer</h3>
+            <p><strong>Company:</strong> Codekandy infotech</p>
+            <p><strong>Duration:</strong> Jan 202 - June 2022</p>
+            <p><strong>Responsibilities:</strong></p>
+            <ul>
+              <li>Designed user-friendly interfaces for web and mobile applications.</li>
+              <li>Collaborated with developers to ensure seamless user experience.</li>
+              <li>Conducted user research and usability testing to improve designs.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 onclick="toggleSection('skills')">Skills</h2>
+        <div id="skills" class="content">
+          <div class="skills-grid">
+            <div class="skill-item">
+              <img src="icons/javascript.png" alt="JavaScript">
+              <p>JavaScript</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/typescript.png" alt="TypeScript">
+              <p>TypeScript</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/nodejs.png" alt="Node.js">
+              <p>Node.js</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/react.png" alt="React.js">
+              <p>React.js</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/angular.png" alt="Angular">
+              <p>Angular</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/python.png" alt="Python">
+              <p>Python</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/java.png" alt="Java">
+              <p>Java</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/csharp.png" alt="C#">
+              <p>C#</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/html5.png" alt="HTML5">
+              <p>HTML5</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/css3.png" alt="CSS3">
+              <p>CSS3</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/django.png" alt="Django">
+              <p>Django</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/flask.png" alt="Flask">
+              <p>Flask</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/mongodb.png" alt="MongoDB">
+              <p>MongoDB</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/swift.png" alt="Redis">
+              <p>Swift</p>
+            </div>
+            <div class="skill-item">
+              <img src="icons/git.png" alt="Git">
+              <p>Git</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 onclick="toggleSection('projects')">Projects</h2>
+        <div id="projects" class="content">
+          <!-- Project 1 -->
+    <div class="project">
+      <div class="project-left">
+        <h3 class="project-title">Website Design</h3>
+        <p class="project-desc">Payment Gateway website for online transaction.</p>
+        <p class="project-stack">Adobe XD, Figma</p>
+      </div>
+      <div class="project-right">
+        <a href="https://paykun.com/" class="project-link" target="_blank">Open Project</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project">
+      <div class="project-left">
+        <h3 class="project-title">MovieHub</h3>
+        <p class="project-desc">
+          A movie details application which provides information on various movies.
+        </p>
+        <p class="project-stack">Python, Flask</p>
+      </div>
+      <div class="project-right">
+        <a href="https://github.com/d2patel" class="project-link" target="_blank">Open Project</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="project">
+      <div class="project-left">
+        <h3 class="project-title">ToDoNow</h3>
+        <p class="project-desc">
+          Easy-to-do app for effective task management and organization.
+        </p>
+        <p class="project-stack">React, Tailwind CSS</p>
+      </div>
+      <div class="project-right">
+        <a href="https://github.com/d2patel" class="project-link" target="_blank">Open Project</a>
+      </div>
+    </div>
+
+    <!-- "See More" link -->
+    <div class="see-more">
+      <p>
+        See More on <a href="https://github.com/d2patel" target="_blank">here</a>
+      </p>
+    </div>
+        </div>
+      </section>
+
+      <section>
+        <h2 onclick="toggleSection('education')">Education</h2>
+        <div id="education" class="content">
+          <div class="college">
+            <div class="college-left">
+              <h3>Postgraduate in Mobile Solutions Development</h3>
+              <p>Conestoga College</p>
+              <p><strong>GPA:</strong> 3.74/4</p>
+            </div>
+            <div class="college-right">
+              <p>Sept 2023 – Dec 2024</p>
+              <p>Waterloo, ON</p>
+            </div>
+          </div>
+      
+          <!-- Bachelor Example -->
+          <div class="college">
+            <div class="college-left">
+              <h3>B.Tech in Computer Engineering</h3>
+              <p>Gyanmanjari Institute of Technology</p>
+              <p><strong>GPA:</strong> 8.34</p>
+            </div>
+            <div class="college-right">
+              <p>May 2017 – Jun 2021</p>
+              <p>Bhavnagar, IN</p>
+            </div>
+          </div>      
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Made with html + css</p>
+      <p>©2025 Darshil Anghan</p>
+    </footer>
+  </div>
+
+  <script>
+    function toggleSection(id) {
+      // Close all sections
+      const allSections = document.querySelectorAll('.content');
+      allSections.forEach(section => {
+        section.style.display = 'none';
+      });
+
+      // Open the clicked section
+      const clickedSection = document.getElementById(id);
+      clickedSection.style.display = 'block';
+    }
+  </script>
+</body>
+</html>
